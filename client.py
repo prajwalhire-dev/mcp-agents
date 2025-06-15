@@ -129,7 +129,7 @@ async def main():
         # question="How many distinct vehicle Makes are in the King table?"
         # question = "What is the minimum Electric Range in the King table?"
         # question = "Find the vehicle with the second highest Electric Range per City in King?"
-        question = "Find Make and Model combinations in King where all vechicles are BEVs?"
+        question = "Find the top 3 most expensive vechicles by Base MSRP in each city in King county?"
         response = await client.ask(question)
         
         print("\n" + "="*50)
